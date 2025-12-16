@@ -1,0 +1,702 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #03031f;
+}
+
+.logo img{
+    width: 100%;
+    height: 195px;
+}
+
+header{
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar {
+    position: absolute;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 10px; 
+    display: flex;
+    background-color: #000000a2;
+}
+
+#inicio{
+    height: 1210px;
+}
+#inicio p{
+    display: flex;
+    font-family: "Heebo";
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    padding-top: 33px;
+    font-weight: 336px;
+    font-size: 20px;
+    padding-bottom: 33px;
+}
+
+.card {
+    position: relative;
+}
+
+.card-link {
+    /* Faz o link se comportar como um bloco */
+    display: block; 
+    width: 100%;
+    height: 100%;
+    text-decoration: none; 
+    
+}
+
+.card-link h2, .card-link p {
+    display: flex;
+    color: black; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 33px;
+}
+.card img{
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+}
+
+h2{
+    display: flex;
+    font-family: "Heebo";
+    font-weight: 134px;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.card{
+    background-color: #D9D9D9;
+    width: 266px;
+    height: 271px;
+    border-radius: 20px;
+}
+
+.info{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card2{
+    background-color: #D9D9D9;
+    width: 266px;
+    height: 271px;
+    border-radius: 20px;
+}
+
+.card2 img{
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+}
+
+.card3{
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    width: 266px;
+    height: 271px;
+}
+
+.card3 img{
+    width: 266px;
+    border-radius: 20px;
+}
+
+.estrela img{
+    width: 81px;
+    height: 18px;
+}
+
+.avaliacao img{
+    width: 210px;
+    height: 33px;
+}
+
+
+.hero-section {
+    background-image: url('img/img/Papel\ de\ Parede.png');
+    background-size: cover;
+    background-position: center;
+    height: 195px;
+    width: 100%;
+    position: relative;
+}
+
+.hero-section h1{
+    align-items: center;
+    font-family: "Ibarra Real Nova";
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 30px;
+    display: flex;
+    padding-left: 49px;
+    padding-top: 95px;
+}
+
+.nav-links {
+    display: none;
+    gap: 10px;
+    text-align: center;
+    padding-left: 10px;
+}
+
+
+#menu-checkbox:checked + .nav-links {
+    display: flex; 
+    transform: translateX(0);
+    
+}
+
+.menu-toggle {
+    display: block;
+    font-size: 1.8em;
+     cursor: pointer;
+     padding-right: 50px;
+}
+
+
+#menu-checkbox {
+    display: none;
+}
+
+li{
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#inicio nav{
+    background-color: #000000a9;
+    color: azure;
+}
+
+#inicio nav img{
+    width: 46px;
+    height: 25px;
+}
+
+.nav-links a{
+    color: aliceblue;
+    display: block;
+    text-decoration: none;
+    font-family: "Inter";
+    font-size: 10px;
+
+}
+
+.nav-links button{
+    height: 20px;
+    width: 90px;
+    background-color: #B16107;
+    border-radius: 20px;
+    font-family: "Inter";
+    color: aliceblue;
+    border: none;
+    text-align: center;
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+
+
+#sobrenos .navbar2{
+    width: 100%;
+    position: absolute;
+    justify-content: space-between;
+    padding: 10px 10px; 
+    display: flex;
+    background-color: #ffffff5d;
+    align-items: center;
+}
+
+#sobrenos nav img{
+    width: 46px;
+    height: 25px;
+}
+
+
+.a a{
+   color: aliceblue;
+    text-decoration: none;
+    font-family: "Inter";
+    font-size: 10px;
+    padding-right: 15px;
+}
+
+#sobrenos main{
+    width: 100%;
+    height: 100%;
+    background-image: url('img/img/camposdejordao.png');
+    background-size: cover;
+    background-position: right; 
+    background-repeat: no-repeat;
+     padding-right: 35px;
+    padding-left: 35px;
+}
+
+.quemsomos{
+    padding-top: 125px;
+}
+
+h3{
+    font-family: "Jacques Francois";
+    font-size: 25px;
+    font-weight: 200;
+    color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quemsomos p{
+    padding-top: 20px;
+    font-family: "Inter";
+    font-size: 18px;
+    color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.insta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    gap: 10px;
+}
+
+.insta img{
+    width: 30px;
+    height: 30px;
+}
+
+.insta p{
+    font-family: "Inter";
+    font-size: 16px;
+    color: #D9D9D9;
+}
+
+.whats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 40px;
+}
+.whats-p p{
+    font-family: "Inter";
+    color: #D9D9D9;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.whats img{
+    width: 30px;
+    height: 30px;
+}
+
+.whats button{
+    background-color: #189D0E;
+    border-radius: 20px;
+    height: 39px;
+    width: 191px;
+    font-family: "Inter";
+    color: #D9D9D9;
+    border: none;
+    
+}
+
+#proximastrilhas{
+  background-color: #03031f;
+  height: 100%;
+  width: 100%;
+}
+
+.info-card{
+    text-align: left;
+}
+
+#proximastrilhas main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+#proximastrilhas nav{
+   width: 100%;
+    position: absolute;
+    justify-content: space-between;
+    padding: 10px 10px; 
+    display: flex;
+    background-color: #ffffff5d;
+    align-items: center;
+}
+
+#proximastrilhas nav img{
+    width: 46px;
+    height: 25px;
+}
+
+#proximastrilhas a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "Inter";
+    font-size: 10px;
+    padding-right: 15px;
+}
+
+#proximastrilhas .proximatrilha img{
+    width: 50%;
+    height: 30%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.proximatrilha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* cards *-* */
+
+h4{
+    padding-top: 10px;
+    font-family: "Inter";
+    color: #D9D9D9;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#proximastrilhas p{
+    font-family: "Inter";
+    color: #D9D9D9;
+    font-size: 14px;
+}
+
+#proximastrilhas label{
+    font-family: "Inter";
+    color: #D9D9D9;
+    font-size: 14px;
+}
+
+.nivel-dificuldade
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.nivel-dificuldade2
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.nivel-dificuldade4{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.nivel-dificuldade meter{
+    color: green;
+}
+
+.nivel-dificuldade2 meter{
+    color: rgb(245, 202, 9);
+}
+
+.card-picodoitapeva{
+    background-color: #ffffff5d;
+    width: 250px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.card-picodoitapeva img{
+    width: 250px;
+    height: 30%;
+    border-radius: 20px;
+}
+
+.card-trilhadoguarda{
+    background-color: #ffffff5d;
+    width: 250px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.card-trilhadoguarda img{
+    width: 250px;
+    height: 30%;
+    border-radius: 20px;
+}
+
+.card-cachoeiradeprata{
+    background-color: #ffffff5d;
+    width: 250px;
+    height: 520px;
+    border-radius: 20px;
+}
+
+.card-cachoeiradeprata img{
+    width: 250px;
+    height: 30%;
+    border-radius: 20px;
+}
+
+.pedradobau{
+    background-color: #ffffff5d;
+    width: 250px;
+    height: 550px;
+    border-radius: 20px;
+}
+
+.pedradobau img{
+   width: 250px;
+   height: 30%;
+   border-radius: 20px; 
+}
+
+.circuitodalagoinha{
+    background-color: #ffffff5d;
+    width: 250px;
+    height: 520px;
+    border-radius: 20px;
+}
+
+.circuitodalagoinha img{
+   width: 250px;
+   height: 30%;
+   border-radius: 20px;
+}
+
+.info-card{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: left;
+    gap: 10px;
+}
+
+/* Lari */
+
+#galeria-section {
+    background-color: #03031f;
+    color: white;
+    text-align: center;
+}
+
+#galeria-section header{
+    width: 100%;
+    position: absolute;
+    justify-content: space-between;
+    padding: 10px 10px; 
+    display: flex;
+    background-color: #ffffff5d;
+    align-items: center;
+}
+
+#galeria-section header img{
+    width: 46px;
+    height: 25px;
+}
+
+h5{
+    padding-top: 150px;
+    font-size: 48px;
+    margin-bottom: 40px;
+    color: #D9D9D9;
+}
+
+.carrossel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+.seta {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.carrossel-itens {
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    width: 70%;
+}
+
+.carrossel-itens img {
+    width: 250px;
+    height: 150px;
+    margin-right: 20px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+#galeria-section .categoria{
+    margin-bottom: 60px;
+}
+
+#galeria-section .categoria h2{
+    font-size: 18px;
+    font-style: italic;
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+}
+
+#login{
+    background-color: #03031f;
+    color: white;
+    text-align: center;
+}
+
+#login header{
+    width: 100%;
+    position: absolute;
+    justify-content: space-between;
+    padding: 10px 10px; 
+    display: flex;
+    background-color: #ffffff5d;
+    align-items: center;
+}
+
+#login header img{
+    width: 46px;
+    height: 25px;
+}
+
+#login .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#login .infos{
+    padding: 50px;
+    background: #2f2f42;
+    border-radius: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    height: 720px;
+    gap: 30px;
+}
+
+#login input{
+    border-radius: 20px;
+    height: 40px;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+#login label{
+color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+#login .enviar button{
+width: 260px;
+height: 60px; 
+}
+
+#login select{
+    height: 40px;
+    border-radius: 20px;
+    color: #06061d;
+    font-size: 15px;
+   
+}
+
+#login textarea{
+    border-radius: 20px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 40px;
+    
+}
+
+#login option{
+    text-align: center;
+}
+
+#login button{
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff7b00;
+  color: white;
+  border-radius: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .menu-toggle { 
+        display: block;
+    }
+}

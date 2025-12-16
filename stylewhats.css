@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+header h1{
+    font-family: "Inter";
+    font-weight: bold;
+    color: #189D0E;
+}
+
+.camera{
+    display: flex;
+    gap: 30px;
+}
+.camera img{
+    width: 30px;
+    height: 24px;
+}
+
+.pontos img{
+    width: 8px;
+    height: 24px;
+}
+
+.barradepesquisa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barradepesquisa input{
+    width: 379px;
+    height: 34px;
+    border-radius: 50px;
+    background-color: #A9A1A1;
+    border: none;
+    padding-left: 50px;
+}
+
+.barradepesquisa ::placeholder{
+      font-family: "Inter";
+    color: aliceblue;
+}
+
+.arq{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-top: 29px;
+    padding-left: 35px;
+}
+.arq img{
+    width: 20px;
+    height: 20px;
+}
+
+.arq p{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: bold;
+    color: #434343;
+}
+
+.eco{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.card-link {
+    display: block; 
+    width: 100%;
+    height: 100%;
+    text-decoration: none; 
+}
+
+.info{
+    display: flex;
+    gap: 10px;
+}
+
+.img img{
+    width: 60px;
+    height: 60px;
+    
+}
+
+h2{
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.eco p{
+    font-family: "Inter";
+    font-size: 13px;
+    color: #434343;
+    padding-top: 2px;
+}
